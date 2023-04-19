@@ -4,7 +4,7 @@ def usar_fuerza(mochilaj,objetos_extraidos=0):
     #No Sable Inside
 
     if len(mochilaj) == 0:
-        print('No encontre un sable de luz en la mochila')
+        return print('No encontre un sable de luz en la mochila')
 
     #Get Item
 
